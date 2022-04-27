@@ -6,7 +6,10 @@ const todoschema = new mongoose.Schema(
       
         title: {type:String},
         description: {type:String},
-        subtasks: [{type:String}],
+        subtasks: [{
+          subTitle: {type:String},
+          status: {type:Boolean,default:false}
+        }],
         status: {type:String},
         tags: {
           official: {type:Boolean, default:false},  
@@ -16,7 +19,6 @@ const todoschema = new mongoose.Schema(
         date: {type:String},
         user_id: { type: String, required: false },
     
-      
     }
 
 )
