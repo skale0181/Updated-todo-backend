@@ -1,7 +1,7 @@
 {
   "name": "new-folder",
   "version": "1.0.0",
-  "description": "clone of urban outfitters",
+  "description": "updated todo application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vikash-vashistha/CloneUrbanOutfittersBackEnd.git"
+    "url": "https://github.com/skale0181/updated-todo-backend.git"
   },
-  "author": "vikash vashistha",
+  "author": "Sagar kale",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vikash-vashistha/CloneUrbanOutfittersBackEnd/issues"
+    "url": "https://github.com/skale0181/updated-todo-backend.git"
   },
-  "homepage": "https://github.com/vikash-vashistha/CloneUrbanOutfittersBackEnd#readme",
+  "homepage": "https://github.com/skale0181/updated-todo-backend.git",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
